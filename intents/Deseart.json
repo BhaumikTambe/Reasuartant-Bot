@@ -1,0 +1,47 @@
+{
+  "id": "357f4ef7-d119-474c-9c09-bd8ccf64bcdf",
+  "name": "Deseart",
+  "auto": true,
+  "contexts": [
+    "Await_Choice",
+    "Price_pay"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Await_Choice",
+          "lifespan": 5
+        },
+        {
+          "name": "Price_pay",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Choose your favourite deseart 1-Vanila Ice cream. 2-Gullab jamun."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

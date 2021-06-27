@@ -1,0 +1,28 @@
+[
+  {
+    "id": "5108a1d4-9014-40bd-84f7-384913f3414f",
+    "data": [
+      {
+        "text": "Drinks.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f958990-a3d5-4439-9985-249a2747b8eb",
+    "data": [
+      {
+        "text": "Desearts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "id": "b33d9b8d-f3b9-4672-a03f-06315261ab02",
+  "name": "Main Course",
+  "auto": true,
+  "contexts": [
+    "Await_Choice"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Await_Choice",
+          "lifespan": 5
+        },
+        {
+          "name": "Price_pay",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Choose an one option 1-Chicken biriyani 2-Fried Rice."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
